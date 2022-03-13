@@ -1,3 +1,55 @@
-theme: jekyll-theme-cayman
-title: welcome!
-description: chang's photograpy
+# Site settings
+title: 阿常与山海
+header-img: "img/Xacebook.jpg"
+tagline: "cn"  
+description: "摄影、游记、记录"  
+baseurl: ""
+url: "http://www.cnfeat.com"  
+
+# About/contact
+owner: 
+  name: "阿常"
+  email: CNFeat@gmail.com
+  bio: "阿常与山海"
+
+# Data
+gavatar: img/favicon1.ico
+favicon: img/favicon1.ico
+
+github_username: hchangzh
+weibo_username: chchangzh
+zhihu_username: chchangzh
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 15
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+gems: [jekyll-paginate]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "CNFeat"
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-80884545-1
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
