@@ -4,19 +4,19 @@ header-img: "img/Xacebook.jpg"
 tagline: "cn"  
 description: "摄影、游记、记录"  
 baseurl: ""
-url: "http://www.cnfeat.com"  
+url: "https://chchangzh.github.io/"  
 
 # About/contact
 owner: 
   name: "阿常"
-  email: CNFeat@gmail.com
+  email: soloshadows@163.com
   bio: "阿常与山海"
 
 # Data
 gavatar: img/favicon1.ico
 favicon: img/favicon1.ico
 
-github_username: hchangzh
+github_username: chchangzh
 weibo_username: chchangzh
 zhihu_username: chchangzh
 
@@ -40,7 +40,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CNFeat"
+      author: "chchangzh"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
