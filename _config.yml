@@ -1,13 +1,4 @@
 # Site settings
-remote_theme: cayman
-title: 阿常与山海
-header-img: "img/Xacebook.jpg"
-tagline: "cn"  
-description: "摄影、游记、记录"  
-baseurl: ""
-url: "https://chchangzh.github.io/"  
-
-# Site settings
 title: 常甲chchangzh   				  	#你博客的标题
 SEOTitle: 常甲 | chchangzh    	 #显示在浏览器上搜索的时候显示的标题
 header-img: img/post-bg-rwd.jpg  	#显示在首页的背景图片
