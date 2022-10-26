@@ -7,50 +7,17 @@ description: "摄影、游记、记录"
 baseurl: ""
 url: "https://chchangzh.github.io/"  
 
-# About/contact
-owner: 
-  name: "阿常"
-  email: soloshadows@163.com
-  bio: "阿常与山海"
+# Site settings
+title: 常甲chchangzh   				  	#你博客的标题
+SEOTitle: 常甲 | chchangzh    	 #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-rwd.jpg  	#显示在首页的背景图片
+email: 1023813421@qq.com	
+description: "摄影日常生活记录"  			 #网站介绍
+keyword: "摄影, 博客, 分享, 照片, 图片, 壁纸, 碎片, 记录" #关键词
+url: "https://chchangzh.github.io/"          # 这个就是填写你的博客地址
+baseurl: ""      # 这个我们不用填写
 
-# Data
-gavatar: img/favicon1.ico
-favicon: img/favicon1.ico
-
-github_username: chchangzh
-weibo_username: chchangzh
-zhihu_username: chchangzh
-
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 15
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-gems: [jekyll-paginate]
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-
-# Defaults for posts
-defaults:
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "chchangzh"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
-
-# Comments 
-
-
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-80884545-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏.
+sidebar-about-description: "出来交个朋友啊"
+sidebar-avatar:/img/avatar-by.JPG      # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
