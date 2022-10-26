@@ -1,4 +1,5 @@
 # Site settings
+remote_theme: cayman
 title: 阿常与山海
 header-img: "img/Xacebook.jpg"
 tagline: "cn"  
